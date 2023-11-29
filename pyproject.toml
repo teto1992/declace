@@ -1,0 +1,37 @@
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "declace"
+version = "0.0.1"
+authors = [
+  { name="Stefano Forti", email="stefano.forti@unipi.it" },
+  { name="Damiano Azzolini", email="damiano.azzolini@unife.it" },
+  { name="Antonio Ielo", email="antonio.ielo@unical.it" }
+]
+
+description = "Declarative container image placer to cloud-edge networks"
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+classifiers = [
+
+]
+
+dependencies = [
+  "clingo", 
+  "pyswip",
+  "networkx", 
+  "numpy",
+  "swiplserver",
+  "loguru"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/teto1992/proimg"
+"Bug Tracker" = "https://github.com/teto1992/proimg/issues"
