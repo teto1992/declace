@@ -44,9 +44,3 @@ optional arguments:
 
 Check out `experiments/params.json` to see an example of how to specify parameters' ranges.
 
-# TODO
-
-- [ ] Non-atom format (YAML, JSON?) for network topologies, images?
-- [ ] Non-verbose output
-- [ ] Fixed-precision arithmetic 
-- [ ] ... 
